@@ -1,2 +1,2 @@
 # simple_intl_manager
-programa para editar intl do flutter
+A simple program to edit intl files for flutter applications
