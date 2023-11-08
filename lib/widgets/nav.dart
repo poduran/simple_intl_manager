@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:simple_intl_manager/models/project.dart';
 import 'package:simple_intl_manager/providers/special_themes.dart';
 
 class Nav extends StatefulWidget {
-  const Nav({super.key});
+  const Nav({super.key, required this.proj});
+
+  final Project? proj;
 
   @override
   State<Nav> createState() => _NavState();
